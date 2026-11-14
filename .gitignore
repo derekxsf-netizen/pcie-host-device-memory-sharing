@@ -1,0 +1,11 @@
+# Local conversion output and temporary files
+/tmp/
+*.tmp
+*.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
