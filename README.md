@@ -5,7 +5,7 @@
 ## 阅读文档
 
 - [Markdown 源文档](PCIe互联下Host与Device内存共享访问综述.md)：适合在线阅读和持续修改，图示使用 Mermaid。
-- [PDF 阅读版](output/pdf/PCIe互联下Host与Device内存共享访问综述.pdf)：当前共 24 页，包含 17 张图示，适合下载阅读。
+- [PDF 阅读版](output/pdf/PCIe互联下Host与Device内存共享访问综述.pdf)：当前共 26 页，包含 18 张图示，适合下载阅读。
 
 ## 当前内容
 
@@ -20,6 +20,7 @@
 ### 第二章：PCIe 基本能力在昇腾上的应用
 
 - Device 通过 PCIe Through 直接访问 Host 内存。
+- PCIe Through 与显式 PCIe DMA 在编程模型、事务、映射、同步和性能方面的异同。
 - 设备访存地址如何路由到 PCIe 出站路径。
 - PCIe 组网下的卡间 P2P 拷贝与共享访问。
 - CANN 接口、资源生命周期与同步要求。
